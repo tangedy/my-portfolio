@@ -20,11 +20,11 @@
   }
   
   .navbar ul li a {
-    color: #7f3563;
+    color: #c5388f;
     text-decoration: none;
     font-size: 18px;
   }
   
   .navbar ul li a:hover {
-    color: #bb59ca; /* Accent color for hover */
+    color: #d47fe1; /* Accent color for hover */
   }
