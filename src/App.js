@@ -10,6 +10,7 @@ import './App.css'// later if I want I can add css here for global styles
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Home />
       <About />
       <Projects />
