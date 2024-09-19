@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Navbar from './components/Navbar'
 import './App.css'// later if I want I can add css here for global styles
 
 function App() {
