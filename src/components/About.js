@@ -4,13 +4,13 @@ const About = () => {
   return (
     <section id= "about" style={{ backgroundColor: '#1e1e1e', color: '#fff', padding: '50px' }}>
       <h2>A Bit About Me</h2>
-      <p> Im Eddie, a charming student at the University of Waterloo studying mathematics. 
+      <p> Im Eddie, your charming honours student at the University of Waterloo studying mathematics. \n
         
-        with a passion for math, computer science, data science, and artificial intelligence. 
+        with a passion for math, computer science, data science, and artificial intelligence. \n
         
-        I pride myself in the way I strive for excellence in my learning, and I enjoy connecting and collaborating with others. 
+        I pride myself in the way I strive for excellence in my learning, and I enjoy connecting and collaborating with others. \n
 
-Outside of my academic life, I am also a passionate visual and musical artist. 
+Outside of my academic life, I am also a passionate visual and musical artist. \n
 
 I look forward to working with you!</p>
     </section>
