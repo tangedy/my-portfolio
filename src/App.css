@@ -39,20 +39,57 @@ a:hover {
   color: #ffffff;
 }
 
-/* Section Styling */
-section {
-  padding: 100px 20px;
-  min-height: 100vh;
+
+/* Home Section */
+#home {
+  background-color: #121212;
+  color: #fff;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-section:nth-child(odd) {
-  background-color: #1e1e1e;
+#home h1 {
+  font-size: 4rem;
+  color: #00ff00;
 }
 
-section:nth-child(even) {
+/* About Section */
+#about {
+  background-color: #1e1e1e;
+  padding: 100px 50px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Projects Section */
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 100px 50px;
   background-color: #121212;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #1e1e1e;
+  padding: 100px 50px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  color: #00ff00;
 }
