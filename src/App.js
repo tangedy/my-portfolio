@@ -13,7 +13,7 @@ import signatureImg from './signature2.png';
 function App() {
   return (
     <div className="App">
-      <img src ={signatureImg} alt = 'Signature' className="Signature" />
+      <img src ={signatureImg} alt = 'Signature' className="signature" />
 
       <Navbar />
       <Home />
