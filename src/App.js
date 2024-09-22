@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <img src ={signatureImg} alt = 'Signature' className="Signature" />
+
       <Navbar />
       <Home />
       <About />
