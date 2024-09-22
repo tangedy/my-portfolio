@@ -1,0 +1,34 @@
+#contact {
+    padding: 100px 50px;
+    text-align: center;
+    background-color: #1e1e1e;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    color: #00ff00;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 40px;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .contact-link {
+    color: #00ff00;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #fff;
+  }
