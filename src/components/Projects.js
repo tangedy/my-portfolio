@@ -21,7 +21,7 @@ Collaborative Development: Worked with a team to build this project, utilizing m
 This project highlights my skills in full-stack development, API integration, and building responsive, user-friendly web applications.</p>
           <a href="https://github.com/shawny4/HTN-RecipeFinder" className="button">View Repo</a>
         </div>
-        <div className="project-card">
+        <div className="project-card animate__animated animate__fadeInUp">
           <h3>Pixelize Software</h3>
           <h4>Drawing Application</h4>
           <p>Pixelize is a pixel art software that offers many features, 
@@ -29,7 +29,7 @@ This project highlights my skills in full-stack development, API integration, an
              pixel art and export their work as transparent PNG files for easy use in other projects.</p>
           <a href="https://github.com/HD-Brody/Pixelize" className="button">View Project</a>
         </div>
-        <div className="project-card">
+        <div className="project-card animate__animated animate__fadeInUp">
           <h3>Seaside Signals Video Game</h3>
           <h4>Jamegam 2024 Submission</h4>
           <p>A brief description of your project. Include any key features or technologies used.</p>
