@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar'
 import './App.css'// later if I want I can add css here for global styles
 import 'animate.css';
-import signatureImg from './signature.png';
+import signatureImg from './signature2.png';
 
 function App() {
   return (
