@@ -51,6 +51,13 @@ a:hover {
   color: #ffffff;
 }
 
+.signature {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 5px; /* Adjust as necessary */
+  z-index: 100; /* Ensure it stays on top */
+}
 
 /* Home Section */
 #home {
@@ -135,11 +142,4 @@ a:hover {
   .contact-links {
     flex-direction: column;
   }
-}
-.signature {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  width: 5px; /* Adjust as necessary */
-  z-index: 100; /* Ensure it stays on top */
 }
