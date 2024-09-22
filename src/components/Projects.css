@@ -12,8 +12,8 @@
   
   .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 20px; /* Space between the cards */
     padding: 20px;
   }
   
@@ -28,7 +28,7 @@
   .project-card:hover {
     transform: translateY(-10px);
   }
-  
+
   .project-card h3 {
     color: #00ff00;
   }
@@ -71,4 +71,16 @@
   .button:hover {
     background-color: #00ff00;
     color: #121212;
+  }
+
+  @media (max-width: 768px) {
+    .projects-container {
+      grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projects-container {
+      grid-template-columns: 1fr; /* Stack the projects vertically on small screens */
+    }
   }

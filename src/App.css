@@ -54,8 +54,8 @@ a:hover {
 .signature {
   position: fixed;
   top: 80px;
-  right: 10px;
-  width: 200px; /* Try reducing the size */
+  right: 80px;
+  width: 160px; /* Try reducing the size */
   height: auto; /* This keeps the aspect ratio */
   z-index: 1000; /* Ensure it's on top */
   pointer-events: none; /* Makes sure it doesn't block interactions with other elements */
