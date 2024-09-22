@@ -11,6 +11,16 @@ body {
   line-height: 1.6;
 }
 
+/* Hide scrollbar */
+body {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
 h1, h2 {
   margin-bottom: 20px;
 }
@@ -123,14 +133,4 @@ a:hover {
   .contact-links {
     flex-direction: column;
   }
-}
-
-/* Hide scrollbar */
-body {
-  scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
-}
-
-body::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Opera */
 }
