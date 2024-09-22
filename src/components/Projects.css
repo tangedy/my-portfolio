@@ -51,3 +51,23 @@
   .project-card a:hover {
     color: #fff;
   }
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    color: #00ff00;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #00ff00;
+    color: #121212;
+  }
