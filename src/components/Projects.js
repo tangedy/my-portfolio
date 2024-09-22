@@ -5,7 +5,7 @@ import recipeRadarImg from './recipe-radar.png';
 const Projects = () => {
   return (
     <section id= "projects" style={{ backgroundColor: '#121212', color: '#fff', padding: '50px' }}>
-       <h2>My Projects</h2>
+      <h2>My Projects</h2>
       <div className="projects-container">
         <div className="project-card animate__animated animate__fadeInUp">
 
