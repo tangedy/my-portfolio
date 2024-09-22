@@ -136,3 +136,10 @@ a:hover {
     flex-direction: column;
   }
 }
+.signature {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 60px; /* Adjust as necessary */
+  z-index: 100; /* Ensure it stays on top */
+}
