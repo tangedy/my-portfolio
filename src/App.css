@@ -20,7 +20,9 @@ body {
 body::-webkit-scrollbar {
   display: none; /* For Chrome, Safari, and Opera */
 }
-
+.example::-webkit-scrollbar {
+  display: none;
+}
 h1, h2 {
   margin-bottom: 20px;
 }
