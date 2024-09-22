@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import recipeRadarImg from 'src/assets/recipe-radar.png';
+import recipeRadarImg from 'recipe-radar.png';
 
 const Projects = () => {
   return (
