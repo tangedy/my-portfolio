@@ -7,7 +7,7 @@ const Projects = () => {
        <h2>My Projects</h2>
       <div className="projects-container">
         <div className="project-card">
-          <h3>Recipe Radar</h3>
+          <h3>Recipe Radar Webapp</h3>
           <h4>HackTheNorth 2024 Submission</h4>
           <p>A web application designed to simplify meal planning by allowing users to input their dietary restrictions and quickly discover recipes, dishes, and ingredient lists tailored to their needs. Our goal was to turn the often time-consuming process of meal decision-making into a streamlined, enjoyable experience.
 
@@ -17,11 +17,14 @@ Real-Time Data Fetching: Recipe Radar integrates with a large-scale API, deliver
 User-Centric Design: We built a clean, intuitive interface to make browsing and selecting meals simple and engaging.
 Collaborative Development: Worked with a team to build this project, utilizing modern web development tools such as Python Flask for the backend and React for the frontend.
 This project highlights my skills in full-stack development, API integration, and building responsive, user-friendly web applications.</p>
-          <a href="#" className="button">View Project</a>
+          <a href="#" className="button">View Repo</a>
         </div>
         <div className="project-card">
-          <h3>Project 2</h3>
-          <p>A brief description of your project. Include any key features or technologies used.</p>
+          <h3>Pixelize Software</h3>
+          <h4>Drawing Application</h4>
+          <p>Pixelize is a pixel art software that offers many features, 
+            including a paint bucket tool, undo button, and layers. Users can create detailed
+             pixel art and export their work as transparent PNG files for easy use in other projects.</p>
           <a href="#" className="button">View Project</a>
         </div>
         <div className="project-card">
