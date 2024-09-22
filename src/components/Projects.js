@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import recipeRadarImg from 'src/assets/recipe-radar.png';
 
 const Projects = () => {
   return (
@@ -8,7 +9,7 @@ const Projects = () => {
       <div className="projects-container">
         <div className="project-card animate__animated animate__fadeInUp">
 
-          <img src="recipe-radar.png" alt="Recipe Radar Screenshot" />
+          <img src={recipeRadarImg} alt="Recipe Radar Screenshot" />
           <h3>Recipe Radar Webapp</h3>
           <h4>HackTheNorth 2024 Submission</h4>
           <p>A web application designed to simplify meal planning by allowing users to input their dietary restrictions and quickly discover recipes, dishes, and ingredient lists tailored to their needs. Our goal was to turn the often time-consuming process of meal decision-making into a streamlined, enjoyable experience.
