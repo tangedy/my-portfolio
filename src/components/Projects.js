@@ -7,6 +7,7 @@ const Projects = () => {
        <h2>My Projects</h2>
       <div className="projects-container">
         <div className="project-card">
+        <div className="project-card animate__animated animate__fadeInUp"></div>
           <img src="recipe-radar.png" alt="Recipe Radar Screenshot" />
           <h3>Recipe Radar Webapp</h3>
           <h4>HackTheNorth 2024 Submission</h4>

@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar'
 import './App.css'// later if I want I can add css here for global styles
+import 'animate.css';
 
 function App() {
   return (
