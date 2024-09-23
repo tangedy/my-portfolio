@@ -46,6 +46,7 @@
     transform: translate(-50%, -50%);
     width: 80%;
     height: 60%;
+    border-radius: 30px;
     background-color: #121212;
     z-index: 1000;
     display: flex;
@@ -108,7 +109,7 @@
   .project-card img {
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 20px;
   }
   
