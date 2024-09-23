@@ -31,12 +31,57 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+    cursor: pointer;
   }
   
   .project-card:hover {
     transform: translateY(-10px);
   }
 
+    /* Expanded project container */
+  .expanded-project {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 60%;
+    background-color: #121212;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+  }
+
+  .expanded-content {
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .expanded-content h3 {
+    font-size: 2rem;
+    color: #00ff00;
+  }
+
+  .expanded-content p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+
+  .expanded-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00ff00;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+  }
+
+  .expanded-content button:hover {
+    background-color: #00cc00;
+  }
   .project-card h3 {
     color: #00ff00;
   }
